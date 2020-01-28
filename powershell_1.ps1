@@ -7,7 +7,7 @@ if($text -match "Drop Table")
 }
 else
 {
-Write-Error "Drop Table does exists in sql scripts"
+Write-Error "Drop/Truncate Table does exists in sql scripts"
 }
 ##############################################################################################################
 
@@ -20,6 +20,6 @@ if($text -match "TRUNCATE TABLE")
 }
 else
 {
-Write-Error "Truncate Table exists in sql scripts"
+Write-Error "Drop/Truncate Table does exists in sql scripts"
 }
 ##############################################################################################################
